@@ -31,7 +31,7 @@ public class UIManager : MonoBehaviour
     IEnumerator RestartGame()
     {
         GameOverCanvas.SetActive(true);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(4f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
